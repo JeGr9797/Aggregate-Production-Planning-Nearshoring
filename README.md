@@ -1,6 +1,8 @@
 # Aggregate-Production-Planning-Nearshoring
 The code where the Aggregate Production Planning problem can be solved under uncertainty from the research article "Multiproduct, multiperiod aggregate production planning subject to maximum inventory area and service level with demand uncertainty: A nearshoring context in Mexican companies" is posted in this repository.
 
+Gómez-Rocha, J. E., Hernández-Gress, E. S., & Santos-Borbolla, C. A. (2024). Improving aggregate production planning considering maximum inventory area and service level with demand uncertainty: a nearshoring context in Mexican companies. Journal of Industrial and Production Engineering, 41(5), 442–455. https://doi.org/10.1080/21681015.2024.2332632
+
 The model is the following: 
 
 $min\sum_{s\in S}{p^s\sum_{k\in K}{W_k^sc_{W\left(k\right)}\left|T\right|}}\ \ +\sum_{s\in S}{p^s\sum_{t\in T}\sum_{k\in K}\left(U_{\left(t\right)k}^sc_{U\left(k\right)}+B_{\left(t\right)k}^sc_{B\left(k\right)}+I_{\left(t\right)k}^sc_{I\left(k\right)}\right)}+A_{req}^sc_{A_{req}}\ $
